@@ -1,6 +1,7 @@
 #!/bin/bash
 
 MACHINE=beaglebone
+OETMP=/home/localadmin/repos/bone/bone_yocto/build/tmp
 
 if [ "x${1}" = "x" ]; then
 	echo "Usage: ${0} <block device>"

@@ -4,6 +4,9 @@ LICENSE = "MIT"
 
 require console-image.bb
 
+# Introduced so building sdk will generate representative rootfs as well as qt tools.
+inherit populate_sdk_qt5
+
 QT_TOOLS = " \
     qtbase \
     qtbase-dev \

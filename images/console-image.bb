@@ -105,6 +105,15 @@ MQTT = " \
     python-paho-mqtt \
 "
 
+FWDEV_TOOLS = " \
+    boost \
+    rsync \
+    protobuf \
+	tmux \
+    vim \
+    bash \
+ "
+
 IMAGE_INSTALL += " \
     ${CORE_OS} \
     ${DEV_SDK_INSTALL} \
@@ -113,6 +122,7 @@ IMAGE_INSTALL += " \
     ${KERNEL_EXTRA_INSTALL} \
     ${MQTT} \
     ${WIFI_SUPPORT} \
+    ${FWDEV_TOOLS} \ 
  "
 
 set_local_timezone() {

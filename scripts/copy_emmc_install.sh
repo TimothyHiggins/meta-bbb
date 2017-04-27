@@ -1,6 +1,8 @@
 #!/bin/bash
 
 MACHINE=beaglebone
+OETMP=/home/localadmin/repos/bone/bone_yocto/build/tmp
+
 SUPPORT_SCRIPTS="emmc-uEnv.txt"
 
 if [ "x${1}" = "x" ]; then
