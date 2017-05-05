@@ -19,7 +19,8 @@
    but not both unless you comment out the 'DOWN' key defs in
    bbb-4dcape70t-keypad.dtsi.
 */
-#include "bbb-4dcape70t-keypad.dtsi"
+/*#include "bbb-4dcape70t-keypad.dtsi"*/
+#include "bbb-spi1-spidev.dtsi"
 
 / {
 	model = "TI AM335x BeagleBone Black";
